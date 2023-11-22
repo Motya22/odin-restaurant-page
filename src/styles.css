@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+  transition: color 0.3s ease 0s;
+}
+a:hover {
+  color: #d62121;
+}
+
+.btn {
+  font-weight: 700;
+  color: #111;
+  transition: color 0.3s ease 0s;
+}
+.btn:hover {
+  color: #d62121;
+}
+.btn.active {
+  cursor: default;
+  color: #d62121;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
